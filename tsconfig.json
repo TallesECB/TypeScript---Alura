@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true, //ele n vai gerar os arquivos JS, enquanto o TS tiver alguma problema
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "app/**/*" 
+    ]
+}
